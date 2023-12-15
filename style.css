@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Cormorant+Garamond:wght@500&family=Fira+Sans&family=Righteous&display=swap');
+
+
+body{
+
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.leftmenu{
+    flex: 1;
+    /* gap: 10px; */
+    margin-right: 40px;
+}
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+h1{
+    font-weight: 300;
+    font-size: 30px;
+    color: #555;
+}
+.categ{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cat{
+    font-weight: 300;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.content{
+    flex: 4;
+}
+.products{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+.product{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    width: 100px;
+    height: 150px;
+    object-fit: contain;
+}
+.name{
+    font-weight: 200;
+}
